@@ -1,0 +1,50 @@
+.recipe-list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  a {
+    text-decoration: none;
+    color:rgb(74, 143, 143)
+  }
+
+
+  nav {
+    background-color: #a38282;
+    padding: 16px;
+
+}
+
+  header nav a {
+    color: #050303;
+    text-decoration: none;
+    border-bottom:2px solid #6d2c2c
+  }
+
+
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 32px 0;
+    font-size: 1.2em;
+  }
+
+  .table-class tr:nth-child(even) {
+    background-color: #bfa6a6;
+  }
+  main {
+    padding: 16px;
+  }
+
+  h1 {
+    margin-bottom: 8px;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin-bottom: 16px;
+  }
